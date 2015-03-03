@@ -152,8 +152,14 @@
 				</div>
 				<div class="col-md-4">
 					<div class="b-search">
-						<form action="" method="get" class="b-search__forma">
-							<input type="text" placeholder="Поиск" name="search" class="b-search__field"></form>
+						<form action="*.php" method="get" class="b-search__forma">
+						  <div class="b-search__forma__wrapper">
+								<input type="text" placeholder="Поиск" name="search" class="b-search__field">
+								<button type="submit" title="search" class="b-search__forma_button">
+								<i class="fa fa-search"></i>
+								</button>
+							</div>
+						</form>
 					</div>
 				</div>
 			</div>
@@ -652,12 +658,12 @@
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
 	<script>
 		window.jQuery || document.write(
-			'<script src="libs/jquery/jquery-1.11.1.js"><\/script>
-	'
+			'<script src="libs/jquery/jquery-1.11.1.js"><\/script>'
 		)
 </script>
-<!---->
-<script src="perfetto/code/perfetto.js"></script>
+<!--
+	<script src="perfetto/code/perfetto.js"></script>
+-->
 <script type="text/javascript" src="libs/raphael/raphael-min.js"></script>
 <script type="text/javascript" src="libs/svg/svg.min.js"></script>
 <script src="libs/paralax/parallax.min.js"></script>

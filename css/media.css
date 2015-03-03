@@ -34,9 +34,10 @@
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
+@media only screen and (min-width : 480px) and screen and (max-width: 1047px) {
 
 }
+
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
@@ -44,10 +45,17 @@
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
-
+@media (min-width: 992px) {
+    .container {
+       width: 940px;
+    }
 }
 
+@media (min-width: 1047px) {
+    .container {
+       width: 1000px;
+    }
+}
  /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
 

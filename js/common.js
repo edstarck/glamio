@@ -2,9 +2,7 @@ $(document).ready(function() {
   var owl = $(".b-slider");
   owl.owlCarousel({
     items : 1,
-    autoHeight: true,
-    pagination: true,
-    autoPlay: true
+    autoHeight: true
   });
   owl.on("mousewheel", ".owl-wrapper", function (e) {
     if (e.deltaY > 0) {
@@ -21,6 +19,14 @@ $(document).ready(function() {
     owl.trigger("owl.prev");
   });
 });
+
+//delete focus on button input a
+$(document).ready(function(){
+  $("button, a").focus(function(){
+  this.blur();
+});
+});
+
  //preloader
 $(window).load(function() {
   $(".loader_inner").fadeOut();
