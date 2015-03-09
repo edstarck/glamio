@@ -6,9 +6,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="shortcut icon" href="favicon.png" />
-	<!--begin perfetto
+	<!--begin perfettoend perfetto-->
 	<link rel="stylesheet" href="perfetto/code/perfetto.css" />
-  end perfetto-->
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css" />
 	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="libs/linea_basic/_ICONFONT/styles.css" />
@@ -37,16 +36,24 @@
 	<div class="b-top_line">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-md-6">
 					<div class="b-services">
 						<a href="#" class="b-services__links links">Доставка и оплата</a>
 						<a href="#" class="b-services__links links">Отзывы</a>
 						<a href="#" class="b-services__links links" >Контакты</a>
 					</div>
+				</div>
+				<div class="col-md-6">
 					<div class="b-login">
 						<a href="#" class="b-login__links b-login__links_registration">Регистрация</a>
 						<span class="b-login__separator">/</span>
 						<a href="#" class="b-login__links b-login__links_login">Войти</a>
+					</div>
+				</div>
+				<div class="hidden-lg hidden-md hidden-sm">
+					<div class="b-basket">
+						<span class="b-basket__cart b-basket__icons"></span>
+						<span class="b-basket__cart b-basket__total">0</span>
 					</div>
 				</div>
 			</div>
@@ -55,13 +62,12 @@
 	<div class="container">
 		<header class="b-header">
 			<div class="row">
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-12 col-xs-12">
 					<div class="b-logo">
-						<a href="/">
-							<img src="img/logo.png" alt=""></a>
+						<img src="img/logo.png" alt="">
 					</div>
 				</div>
-				<div class="col-md-6">
+				<div class="col-md-6 col-sm-7 col-xs-8">
 					<div class="b-calls">
 						<ul class="b-calls__list">
 							<li class="b-calls__list_iteam"> <i class="fa fa-phone"></i>
@@ -77,7 +83,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3 col-sm-5 col-xs-4">
 					<div class="b-basket">
 						<span class="b-basket__cart b-basket__icons"></span>
 						<span class="b-basket__cart b-basket__total">0</span>
@@ -85,33 +91,133 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-12">
+			<nav class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
 					<div class="b-menu">
-						<ul class="b-menu__list">
+						<ul class="b-menu__list ddmenu">
 							<li class="b-menu__list__iteam">
-								<a href="" class="b-menu__list__iteam__links">БРЕНДЫ</a>
+								<a href="#" class="b-menu__list__iteam__links">БРЕНДЫ</a>
+								<div class="b-menu__list__iteam_hidden ">
+									<div class="row">
+										<div class="col-md-4">
+											<ul class="b-menu__hidden_list">
+												<li class="b-menu__hidden_list__iteam"><a class="b-menu__hidden_list__iteam__links" href="#">alterna</a></li>
+												<li class="b-menu__hidden_list__iteam"><a class="b-menu__hidden_list__iteam__links"  href="#">American Crew</a></li>
+												<li class="b-menu__hidden_list__iteam"><a class="b-menu__hidden_list__iteam__links" href="#">Andrae Graland</a></li>
+												<li class="b-menu__hidden_list__iteam"><a class="b-menu__hidden_list__iteam__links"  href="#">Alessandro</a></li>
+											</ul>
+										</div>
+										<div class="col-md-4">
+											<ul class="b-menu__hidden_list">
+												<li class="b-menu__hidden_list__iteam"><a class="b-menu__hidden_list__iteam__links" href="#">By-cosmetics</a></li>
+											</ul>
+										</div>
+										<div class="col-md-4">
+											<ul class="b-menu__hidden_list">
+												<li class="b-menu__hidden_list__iteam"><a class="b-menu__hidden_list__iteam__links"  href="#">Chi</a></li>
+												<li class="b-menu__hidden_list__iteam"><a class="b-menu__hidden_list__iteam__links"  href="#">Cnd</a></li>
+												<li class="b-menu__hidden_list__iteam"><a class="b-menu__hidden_list__iteam__links"  href="#">Christina Fitzqerald</a></li>
+												<li class="b-menu__hidden_list__iteam"><a class="b-menu__hidden_list__iteam__links"  href="#">Cloud Nire</a></li>
+											</ul>
+										</div>
+										<div class="col-md-4">
+											<ul class="b-menu__hidden_list">
+												<li class="b-menu__hidden_list__iteam"><a class="b-menu__hidden_list__iteam__links"  href="#">Gehwol</a></li>
+											</ul>
+										</div>
+										<div class="col-md-4">
+											<ul class="b-menu__hidden_list">
+												<li class="b-menu__hidden_list__iteam"><a class="b-menu__hidden_list__iteam__links"  href="#">Davines</a></li>
+											</ul>
+										</div>
+										<div class="col-md-4">
+											<ul class="b-menu__hidden_list">
+												<li class="b-menu__hidden_list__iteam"><a class="b-menu__hidden_list__iteam__links"  href="#">Moroccanoil</a></li>
+											</ul>
+										</div>
+										<div class="col-md-4">
+											<ul class="b-menu__hidden_list">
+												<li class="b-menu__hidden_list__iteam"><a class="b-menu__hidden_list__iteam__links"  href="#">Nanogen</a></li>
+											</ul>
+										</div>
+										<div class="col-md-4">
+											<ul class="b-menu__hidden_list">
+												<li class="b-menu__hidden_list__iteam"><a class="b-menu__hidden_list__iteam__links"  href="#">Kerastase</a></li>
+											</ul>
+										</div>
+										<div class="col-md-4">
+											<ul class="b-menu__hidden_list">
+												<li class="b-menu__hidden_list__iteam"><a class="b-menu__hidden_list__iteam__links"  href="#">Pharmaskincare</a></li>
+											</ul>
+										</div>
+										<div class="col-md-4">
+											<ul class="b-menu__hidden_list">
+												<li class="b-menu__hidden_list__iteam"><a class="b-menu__hidden_list__iteam__links"  href="#">Thalasso Bretagne</a></li>
+											</ul>
+										</div>
+										<div class="col-md-4">
+											<ul class="b-menu__hidden_list">
+												<li class="b-menu__hidden_list__iteam"><a class="b-menu__hidden_list__iteam__links"  href="#">Ultraceuticals</a></li>
+											</ul>
+										</div>
+										<div class="col-md-4">
+											<ul class="b-menu__hidden_list">
+												<li class="b-menu__hidden_list__iteam"><a class="b-menu__hidden_list__iteam__links"  href="#">Weleda</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
 							</li>
 							<li class="b-menu__list__iteam">
-								<a href="" class="b-menu__list__iteam__links">ВОЛОСЫ</a>
+								<a href="#" class="b-menu__list__iteam__links">ВОЛОСЫ</a>
 							</li>
 							<li class="b-menu__list__iteam">
-								<a href="" class="b-menu__list__iteam__links">ЛИЦО</a>
+								<a href="#" class="b-menu__list__iteam__links">ЛИЦО</a>
+								<div class="b-menu__list__iteam_hidden ">
+									<div class="row">
+										<div class="col-md-4">
+											<ul class="b-menu__hidden_list">
+												<li class="b-menu__hidden_list__iteam"><a class="b-menu__hidden_list__iteam__links" href="#">alterna</a></li>
+												<li class="b-menu__hidden_list__iteam"><a class="b-menu__hidden_list__iteam__links"  href="#">American Crew</a></li>
+												<li class="b-menu__hidden_list__iteam"><a class="b-menu__hidden_list__iteam__links" href="#">Andrae Graland</a></li>
+												<li class="b-menu__hidden_list__iteam"><a class="b-menu__hidden_list__iteam__links"  href="#">Alessandro</a></li>
+											</ul>
+										</div>
+										<div class="col-md-4">
+											<ul class="b-menu__hidden_list">
+												<li class="b-menu__hidden_list__iteam"><a class="b-menu__hidden_list__iteam__links" href="#">By-cosmetics</a></li>
+											</ul>
+										</div>
+										<div class="col-md-4">
+											<ul class="b-menu__hidden_list">
+												<li class="b-menu__hidden_list__iteam"><a class="b-menu__hidden_list__iteam__links"  href="#">Chi</a></li>
+												<li class="b-menu__hidden_list__iteam"><a class="b-menu__hidden_list__iteam__links"  href="#">Cnd</a></li>
+												<li class="b-menu__hidden_list__iteam"><a class="b-menu__hidden_list__iteam__links"  href="#">Christina Fitzqerald</a></li>
+												<li class="b-menu__hidden_list__iteam"><a class="b-menu__hidden_list__iteam__links"  href="#">Cloud Nire</a></li>
+											</ul>
+										</div>
+										<div class="col-md-4">
+											<ul class="b-menu__hidden_list">
+												<li class="b-menu__hidden_list__iteam"><a class="b-menu__hidden_list__iteam__links"  href="#">Gehwol</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
 							</li>
 							<li class="b-menu__list__iteam">
-								<a href="" class="b-menu__list__iteam__links">ТЕЛО</a>
+								<a href="#" class="b-menu__list__iteam__links">ТЕЛО</a>
 							</li>
 							<li class="b-menu__list__iteam">
-								<a href="" class="b-menu__list__iteam__links">РУКИ</a>
+								<a href="#" class="b-menu__list__iteam__links">РУКИ</a>
 							</li>
 							<li class="b-menu__list__iteam">
-								<a href="" class="b-menu__list__iteam__links">НОГИ</a>
+								<a href="#" class="b-menu__list__iteam__links">НОГИ</a>
 							</li>
 							<li class="b-menu__list__iteam">
-								<a href="" class="b-menu__list__iteam__links">МАКИЯЖ</a>
+								<a href="#" class="b-menu__list__iteam__links">МАКИЯЖ</a>
 							</li>
 							<li class="b-menu__list__iteam">
-								<a href="" class="b-menu__list__iteam__links">ДЛЯ МУЖЧИН</a>
+								<a href="#" class="b-menu__list__iteam__links">ДЛЯ МУЖЧИН</a>
 							</li>
 							<li class="b-menu__list__iteam">
 								<a href="" class="b-menu__list__iteam__links">BEAUTY СОВЕТЫ</a>
@@ -119,9 +225,9 @@
 						</ul>
 					</div>
 				</div>
-			</div>
+			</nav>
 			<div class="row search">
-				<div class="col-md-8">
+				<div class="col-md-7 col-sm-12 hidden-xs">
 					<div class="b-search-brend">
 						<a href="#" class="b-search-brend__link">a</a>
 						<a href="#" class="b-search-brend__link">b</a>
@@ -151,333 +257,410 @@
 						<a href="#" class="b-search-brend__link">z</a>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-5 col-sm-12 col-xs-12">
 					<div class="b-search">
-						<form action="" method="get" class="b-search__forma">
-							<input type="text" placeholder="Поиск" name="search" class="b-search__field"></form>
+						<form action="*.php" method="get" class="b-search__forma">
+							<div class="b-search__forma__wrapper">
+								<input type="text" placeholder="Поиск" name="search" class="b-search__field">
+								<button type="submit" title="search" class="b-search__forma_button">
+								<i class="fa fa-search"></i>
+								</button>
+							</div>
+						</form>
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-12">
-					<div class="b-slider-container">
-						<div class="next_button">
-							<i class="fa fa-angle-right"></i>
-						</div>
-						<div class="prev_button">
-							<i class="fa fa-angle-left"></i>
-						</div>
-						<div class="b-slider carousel">
-							<div class="b-slider_item">
-								<img class="b-slider_item_image" src="img/picture/slider/slide5.jpg" alt=""></div>
-							<div class="b-slider_item">
-								<img class="b-slider_item_image" src="img/picture/slider/slide5.jpg" alt=""></div>
-							<div class="b-slider_item">
-								<img class="b-slider_item_image" src="img/picture/slider/slide5.jpg" alt=""></div>
-							<div class="b-slider_item">
-								<img class="b-slider_item_image" src="img/picture/slider/slide5.jpg" alt=""></div>
-						</div>
-					</div>
+			<div class="row b-slider">
+				<div class="b-slider-container b-slider-container_first col-md-8 hidden-xs">
+					<img class="b-slider_item_image img-responsive" src="img/picture/slider/slide1.jpg" alt="">
+					<img class="b-slider_item_image img-responsive" src="img/picture/slider/slide3.jpg" alt="">
+				</div>
+				<div class="b-slider-container b-slider-container_second col-md-4 hidden-sm hidden-xs">
+					<img class="b-slider_item_image img-responsive" src="img/picture/slider/slide2.jpg" alt="">
+					<img class="b-slider_item_image img-responsive" src="img/picture/slider/slide4.jpg" alt="">
 				</div>
 			</div>
 		</header>
-
 		<section class="b-content">
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-md-12 hidden-xs">
 					<div class="b-carousels">
 						<h4>Поиск по брендам</h4>
+						<div class="next_button">
+								<i class="fa fa-caret-right"></i>
+							</div>
+							<div class="prev_button">
+								<i class="fa fa-caret-left"></i>
+						</div>
 						<div class="b-carousel">
 							<div class="b-carusel__image">
 								<a href="" class="b-carusel__image__link">
-									<img src="img/picture/carusel/03.jpg" height="87" width="187" alt=""></a>
+									<img src="img/picture/carusel/01.jpg" alt=""></a>
+							</div>
+							<div class="b-carusel__image">
 								<a href="" class="b-carusel__image__link">
-									<img src="img/picture/carusel/05.jpg" height="87" width="156" alt=""></a>
+									<img src="img/picture/carusel/02.jpg" alt=""></a>
+							</div>
+							<div class="b-carusel__image">
 								<a href="" class="b-carusel__image__link">
-									<img src="img/picture/carusel/07.jpg" height="87" width="106" alt=""></a>
+									<img src="img/picture/carusel/03.jpg"  alt=""></a>
+							</div>
+							<div class="b-carusel__image">
 								<a href="" class="b-carusel__image__link">
-									<img src="img/picture/carusel/09.jpg" height="87" width="169" alt=""></a>
+									<img src="img/picture/carusel/04.jpg" alt=""></a>
+							</div>
+							<div class="b-carusel__image">
 								<a href="" class="b-carusel__image__link">
-									<img src="img/picture/carusel/11.jpg" height="87" width="136" alt=""></a>
+									<img src="img/picture/carusel/05.jpg" alt=""></a>
+							</div>
+							<div class="b-carusel__image">
 								<a href="" class="b-carusel__image__link">
-									<img src="img/picture/carusel/13.jpg" height="87" width="89" alt=""></a>
+									<img src="img/picture/carusel/06.jpg" alt=""></a>
+							</div>
+							<div class="b-carusel__image">
+								<a href="" class="b-carusel__image__link">
+									<img src="img/picture/carusel/01.jpg"  alt=""></a>
+							</div>
+							<div class="b-carusel__image">
+								<a href="" class="b-carusel__image__link">
+									<img src="img/picture/carusel/02.jpg" alt=""></a>
+							</div>
+							<div class="b-carusel__image">
+								<a href="" class="b-carusel__image__link">
+									<img src="img/picture/carusel/03.jpg" alt=""></a>
+							</div>
+							<div class="b-carusel__image">
+								<a href="" class="b-carusel__image__link">
+									<img src="img/picture/carusel/04.jpg" alt=""></a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+<!--begin Новинки -->
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-md-12 col-sm-12 col-xs-12">
 					<div class="b-newGoods">
 						<h4 class="b-newGoods__title">Новинки</h4>
-						<div class="b-newGoods__goods">
-							<div class="b-image">
-								<div class="b-newGoods__goods__label">Новинка</div>
-								<img src="img/picture/product/product_25.jpg" height="228" width="225" alt=""></div>
-							<div class="b-character">
-								<div class="b-description">Паста для укладки волос средней фиксации 85мл</div>
-								<div class="b-price">
-									<span class="b-price__price">899</span>
-									<i class="fa fa-rub"></i>
+						<div class="col-md-3 col-sm-3 col-xs-12">
+							<div class="b-newGoods__goods">
+								<div class="b-image">
+									<div class="b-newGoods__goods__label">Новинка</div>
+									<a href="">
+										<img src="img/picture/product/product_25.jpg" class="img-responsive" alt="">
+									</a>
 								</div>
-								<div class="b-discount">
-									<span class="b-discount__price">855</span>
-									<i class="fa fa-rub"></i>
-									<a href="#" class="b-discount__price__user">Цена для пользователя</a>
+								<div class="b-character">
+									<div class="b-description">Паста для укладки волос средней фиксации 85мл</div>
+									<div class="b-price">
+										<span class="b-price__price">899</span>
+										<i class="fa fa-rub"></i>
+									</div>
+									<div class="b-discount">
+										<span class="b-discount__price">855</span>
+										<i class="fa fa-rub"></i>
+										<a href="#" class="b-discount__price__user">Цена для пользователя</a>
+									</div>
+									<a href="#"class="b-basket__cart b-basket__icons"></a>
 								</div>
-								<a href="#"class="b-basket__cart b-basket__icons"></a>
 							</div>
 						</div>
-						<div class="b-newGoods__goods">
-							<div class="b-image">
-								<div class="b-newGoods__goods__label">Новинка</div>
-								<img src="img/picture/product/product_27.jpg" alt=""></div>
-							<div class="b-character">
-								<div class="b-description">Кондиционер для окрашенных волос 250мл</div>
-								<div class="b-price">
-									<span class="b-price__price">1868</span>
-									<i class="fa fa-rub"></i>
+						<div class="col-md-3 col-sm-3 col-xs-12">
+							<div class="b-newGoods__goods">
+								<div class="b-image">
+									<div class="b-newGoods__goods__label">Новинка</div>
+									<a href="">
+										<img src="img/picture/product/product_27.jpg" alt=""  class="img-responsive">
+									</a>
 								</div>
-								<div class="b-discount">
-									<span class="b-discount__price">1744</span>
-									<i class="fa fa-rub"></i>
-									<a href="#" class="b-discount__price__user">Цена для пользователя</a>
+								<div class="b-character">
+									<div class="b-description">Кондиционер для окрашенных волос 250мл</div>
+									<div class="b-price">
+										<span class="b-price__price">1868</span>
+										<i class="fa fa-rub"></i>
+									</div>
+									<div class="b-discount">
+										<span class="b-discount__price">1744</span>
+										<i class="fa fa-rub"></i>
+										<a href="#" class="b-discount__price__user">Цена для пользователя</a>
+									</div>
+									<a href="#"class="b-basket__cart b-basket__icons"></a>
 								</div>
-								<a href="#"class="b-basket__cart b-basket__icons"></a>
 							</div>
 						</div>
-						<div class="b-newGoods__goods">
-							<div class="b-image">
-								<div class="b-newGoods__goods__label">Новинка</div>
-								<img src="img/picture/product/product_30.jpg" height="228" width="225" alt=""></div>
-							<div class="b-character">
-								<div class="b-description">Восстанавливающая маска для волос 250мл</div>
-								<div class="b-price">
-									<span class="b-price__price">4785</span>
-									<i class="fa fa-rub"></i>
+						<div class="col-md-3 col-sm-3 col-xs-12">
+							<div class="b-newGoods__goods">
+								<div class="b-image">
+									<div class="b-newGoods__goods__label">Новинка</div>
+									<a href="">
+										<img src="img/picture/product/product_30.jpg"  class="img-responsive" alt="">
+									</a>
 								</div>
-								<div class="b-discount">
-									<span class="b-discount__price">4546</span>
-									<i class="fa fa-rub"></i>
-									<a href="#" class="b-discount__price__user">Цена для пользователя</a>
+								<div class="b-character">
+									<div class="b-description">Восстанавливающая маска для волос 250мл</div>
+									<div class="b-price">
+										<span class="b-price__price">4785</span>
+										<i class="fa fa-rub"></i>
+									</div>
+									<div class="b-discount">
+										<span class="b-discount__price">4546</span>
+										<i class="fa fa-rub"></i>
+										<a href="#" class="b-discount__price__user">Цена для пользователя</a>
+									</div>
+									<a href="#"class="b-basket__cart b-basket__icons"></a>
 								</div>
-								<a href="#"class="b-basket__cart b-basket__icons"></a>
 							</div>
 						</div>
-						<div class="b-newGoods__goods">
-							<div class="b-image">
-								<div class="b-newGoods__goods__label">Новинка</div>
-								<img src="img/picture/product/product_22.jpg" height="228" width="225" alt=""></div>
-							<div class="b-character">
-								<div class="b-description">Крем с комплексом вита липсом/коллаген 30мл</div>
-								<div class="b-price">
-									<span class="b-price__price">4785</span>
-									<i class="fa fa-rub"></i>
+						<div class="col-md-3 col-sm-3 col-xs-12">
+							<div class="b-newGoods__goods">
+								<div class="b-image">
+									<div class="b-newGoods__goods__label">Новинка</div>
+									<a href="">
+										<img src="img/picture/product/product_22.jpg"  class="img-responsive" alt="">
+									</a>
+									</div>
+								<div class="b-character">
+									<div class="b-description">Крем с комплексом вита липсом/коллаген 30мл</div>
+									<div class="b-price">
+										<span class="b-price__price">4785</span>
+										<i class="fa fa-rub"></i>
+									</div>
+									<div class="b-discount">
+										<span class="b-discount__price">4546</span>
+										<i class="fa fa-rub"></i>
+										<a href="#" class="b-discount__price__user">Цена для пользователя</a>
+									</div>
+									<a href="#"class="b-basket__cart b-basket__icons"></a>
 								</div>
-								<div class="b-discount">
-									<span class="b-discount__price">4546</span>
-									<i class="fa fa-rub"></i>
-									<a href="#" class="b-discount__price__user">Цена для пользователя</a>
-								</div>
-								<a href="#"class="b-basket__cart b-basket__icons"></a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!--begin Хиты продаж -->
+<!--end Новинки -->
+
+<!--begin Хиты продаж -->
 			<div class="row">
-				<div class="col-md-12">
+				<div class="col-md-12 col-sm-12 col-xs-12">
 					<div class="b-bestSeller">
 						<h4 class="b-bestSeller__title">Хиты продаж</h4>
-						<div class="b-bestSeller__goods">
-							<div class="b-image">
-								<div class="b-bestSeller__goods__label">Хит</div>
-								<img src="img/picture/product/product_12.jpg" height="228" width="225" alt=""></div>
-							<div class="b-character">
-								<div class="b-description">Крем для волос стимулирующий рост волос 50мл</div>
-								<div class="b-price">
-									<span class="b-price__price">995</span>
-									<i class="fa fa-rub"></i>
+						<div class="col-md-3 col-sm-3 col-xs-12">
+							<div class="b-bestSeller__goods">
+								<div class="b-image">
+									<div class="b-bestSeller__goods__label">Хит</div>
+									<img src="img/picture/product/product_12.jpg" class="img-responsive" alt=""></div>
+								<div class="b-character">
+									<div class="b-description">Крем для волос стимулирующий рост волос 50мл</div>
+									<div class="b-price">
+										<span class="b-price__price">995</span>
+										<i class="fa fa-rub"></i>
+									</div>
+									<div class="b-discount">
+										<span class="b-discount__price">925</span>
+										<i class="fa fa-rub"></i>
+										<a href="#" class="b-discount__price__user">Цена для пользователя</a>
+									</div>
+									<a href="#"class="b-basket__cart b-basket__icons"></a>
 								</div>
-								<div class="b-discount">
-									<span class="b-discount__price">925</span>
-									<i class="fa fa-rub"></i>
-									<a href="#" class="b-discount__price__user">Цена для пользователя</a>
-								</div>
-								<a href="#"class="b-basket__cart b-basket__icons"></a>
 							</div>
 						</div>
-						<div class="b-bestSeller__goods">
-							<div class="b-image">
-								<div class="b-bestSeller__goods__label">Хит</div>
-								<img src="img/picture/product/product_06.jpg" height="228" width="225" alt=""></div>
-							<div class="b-character">
-								<div class="b-description">Шампунь-ванна на основе масел 250мл</div>
-								<div class="b-price">
-									<span class="b-price__price">1255</span>
-									<i class="fa fa-rub"></i>
+						<div class="col-md-3 col-sm-3 col-xs-12">
+							<div class="b-bestSeller__goods">
+								<div class="b-image">
+									<div class="b-bestSeller__goods__label">Хит</div>
+									<img src="img/picture/product/product_06.jpg" class="img-responsive" alt=""></div>
+								<div class="b-character">
+									<div class="b-description">Шампунь-ванна на основе масел 250мл</div>
+									<div class="b-price">
+										<span class="b-price__price">1255</span>
+										<i class="fa fa-rub"></i>
+									</div>
+									<div class="b-discount">
+										<span class="b-discount__price">1192</span>
+										<i class="fa fa-rub"></i>
+										<a href="#" class="b-discount__price__user">Цена для пользователя</a>
+									</div>
+									<a href="#"class="b-basket__cart b-basket__icons"></a>
 								</div>
-								<div class="b-discount">
-									<span class="b-discount__price">1192</span>
-									<i class="fa fa-rub"></i>
-									<a href="#" class="b-discount__price__user">Цена для пользователя</a>
-								</div>
-								<a href="#"class="b-basket__cart b-basket__icons"></a>
 							</div>
 						</div>
-						<div class="b-bestSeller__goods">
-							<div class="b-image">
-								<div class="b-bestSeller__goods__label">Хит</div>
-								<img src="img/picture/product/product_03.jpg" height="228" width="225" alt=""></div>
-							<div class="b-character">
-								<div class="b-description">Восстанавливающая маска для волос 200мл</div>
-								<div class="b-price">
-									<span class="b-price__price">1375</span>
-									<i class="fa fa-rub"></i>
+						<div class="col-md-3 col-sm-3 col-xs-12">
+							<div class="b-bestSeller__goods">
+								<div class="b-image">
+									<div class="b-bestSeller__goods__label">Хит</div>
+									<img src="img/picture/product/product_03.jpg" class="img-responsive" alt=""></div>
+								<div class="b-character">
+									<div class="b-description">Восстанавливающая маска для волос 200мл</div>
+									<div class="b-price">
+										<span class="b-price__price">1375</span>
+										<i class="fa fa-rub"></i>
+									</div>
+									<div class="b-discount">
+										<span class="b-discount__price">1250</span>
+										<i class="fa fa-rub"></i>
+										<a href="#" class="b-discount__price__user">Цена для пользователя</a>
+									</div>
+									<a href="#"class="b-basket__cart b-basket__icons"></a>
 								</div>
-								<div class="b-discount">
-									<span class="b-discount__price">1250</span>
-									<i class="fa fa-rub"></i>
-									<a href="#" class="b-discount__price__user">Цена для пользователя</a>
-								</div>
-								<a href="#"class="b-basket__cart b-basket__icons"></a>
 							</div>
 						</div>
-						<div class="b-bestSeller__goods">
-							<div class="b-image">
-								<div class="b-bestSeller__goods__label">Хит</div>
-								<img src="img/picture/product/product_09.jpg" height="228" width="225" alt=""></div>
-							<div class="b-character">
-								<div class="b-description">Крем для волос для ухода за жирной кожей 30мл</div>
-								<div class="b-price">
-									<span class="b-price__price">2599</span>
-									<i class="fa fa-rub"></i>
+						<div class="col-md-3 col-sm-3 col-xs-12">
+							<div class="b-bestSeller__goods">
+								<div class="b-image">
+									<div class="b-bestSeller__goods__label">Хит</div>
+									<img src="img/picture/product/product_09.jpg" class="img-responsive" alt=""></div>
+								<div class="b-character">
+									<div class="b-description">Крем для волос для ухода за жирной кожей 30мл</div>
+									<div class="b-price">
+										<span class="b-price__price">2599</span>
+										<i class="fa fa-rub"></i>
+									</div>
+									<div class="b-discount">
+										<span class="b-discount__price">2456</span>
+										<i class="fa fa-rub"></i>
+										<a href="#" class="b-discount__price__user">Цена для пользователя</a>
+									</div>
+									<a href="#"class="b-basket__cart b-basket__icons"></a>
 								</div>
-								<div class="b-discount">
-									<span class="b-discount__price">2456</span>
-									<i class="fa fa-rub"></i>
-									<a href="#" class="b-discount__price__user">Цена для пользователя</a>
-								</div>
-								<a href="#"class="b-basket__cart b-basket__icons"></a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!--end Хиты продаж -->
-			<!--begin Новости -->
-			<div class="col-md-12">
-				<div class="b-news">
-					<h4 class="b-news__title">Новости</h4>
-					<ul class="b-news__list">
-						<li class="b-news__list__iteam">
-							<a href="" class="b-news__list__iteam_link">
-								<i class="date">19.01.2015</i>
-								<br>Наша компания открыла интернет магазин</a>
-							<p class="b-news__list__iteam_text">
-								Мы рады видеть вас в нашем интернет-магазине, зарегистрированным пользователем скидка 5 % на все виды продукции.
-							</p>
-						</li>
-						<li class="b-news__list__iteam">
-							<a href="" class="b-news__list__iteam_link">
-								<i class="date">19.01.2015</i>
-								<br>Наша компания открыла интернет магазин</a>
-							<p class="b-news__list__iteam_text">
-								Мы рады видеть вас в нашем интернет-магазине, зарегистрированным пользователем скидка 5 % на все виды продукции.
-							</p>
-						</li>
-						<li class="b-news__list__iteam">
-							<a href="" class="b-news__list__iteam_link">
-								<i class="date">19.01.2015</i>
-								<br>Наша компания открыла интернет магазин</a>
-							<p class="b-news__list__iteam_text">
-								Мы рады видеть вас в нашем интернет-магазине, зарегистрированным пользователем скидка 5 % на все виды продукции.
-							</p>
-						</li>
-					</ul>
+<!--end Хиты продаж -->
+
+<!--begin Новости -->
+			<div class="row">
+				<div class="col-md-12 col-sm-12 col-xs-12">
+					<div class="b-news">
+						<h4 class="b-news__title">Новости</h4>
+							<div class="col-md-4 col-sm-4 col-xs-12">
+								<div class="b-news__list__iteam ">
+									<a href="" class="b-news__list__iteam_link">
+										<i class="date">19.01.2015</i>
+										<br>Наша компания открыла интернет магазин</a>
+									<p class="b-news__list__iteam_text">
+										Мы рады видеть вас в нашем интернет-магазине, зарегистрированным пользователем скидка 5 % на все виды продукции.
+									</p>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4 col-xs-12">
+								<div class="b-news__list__iteam">
+									<a href="" class="b-news__list__iteam_link">
+										<i class="date">19.01.2015</i>
+										<br>Наша компания открыла интернет магазин</a>
+									<p class="b-news__list__iteam_text">
+										Мы рады видеть вас в нашем интернет-магазине, зарегистрированным пользователем скидка 5 % на все виды продукции.
+									</p>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4 col-xs-12">
+								<div class="b-news__list__iteam">
+									<a href="" class="b-news__list__iteam_link">
+										<i class="date">19.01.2015</i>
+										<br>Наша компания открыла интернет магазин</a>
+									<p class="b-news__list__iteam_text">
+										Мы рады видеть вас в нашем интернет-магазине, зарегистрированным пользователем скидка 5 % на все виды продукции.
+									</p>
+								</div>
+							</div>
+					</div>
 				</div>
 			</div>
-			<!--end Новости -->
-			<div class="col-md-12">
-				<div class="b-advice">
-					<ul class="b-advice__list">
-						<span class="b-advice__list__title">
-							РЕШИТЬ ПРОБЛЕМУ
-							<a href="#" class="b-advice__list__toggle">Скрыть</a>
-							<i class="fa fa-caret-down"></i>
-						</span>
-						<li class="b-advice__list__iteam">
-							<a href="" class="b-advice__list__iteam__links">Старение кожи</a>
-						</li>
-						<li class="b-advice__list__iteam">
-							<a href="" class="b-advice__list__iteam__links">Солнце</a>
-						</li>
-						<li class="b-advice__list__iteam">
-							<a href="" class="b-advice__list__iteam__links">Расширенные поры</a>
-						</li>
-						<li class="b-advice__list__iteam">
-							<a href="" class="b-advice__list__iteam__links">Анке</a>
-						</li>
-						<li class="b-advice__list__iteam">
-							<a href="" class="b-advice__list__iteam__links">Целлюлит</a>
-						</li>
-						<li class="b-advice__list__iteam">
-							<a href="" class="b-advice__list__iteam__links">Шрамы</a>
-						</li>
-					</ul>
-					<ul class="b-advice__list">
-						<span class="b-advice__list__title">
-							ТИП КОЖИ
-							<a href="#" class="b-advice__list__toggle">Скрыть</a>
-							<i class="fa fa-caret-down"></i>
-						</span>
-						<li class="b-advice__list__iteam">
-							<a href="" class="b-advice__list__iteam__links">Все типы кожи</a>
-						</li>
-						<li class="b-advice__list__iteam">
-							<a href="" class="b-advice__list__iteam__links">Комбинированная</a>
-						</li>
-						<li class="b-advice__list__iteam">
-							<a href="" class="b-advice__list__iteam__links">Чувствительная</a>
-						</li>
-						<li class="b-advice__list__iteam">
-							<a href="" class="b-advice__list__iteam__links">Жирная</a>
-						</li>
-						<li class="b-advice__list__iteam">
-							<a href="" class="b-advice__list__iteam__links">Нормальная</a>
-						</li>
-						<li class="b-advice__list__iteam">
-							<a href="" class="b-advice__list__iteam__links">Сухая</a>
-						</li>
-					</ul>
-					<ul class="b-advice__list">
-						<span class="b-advice__list__title">
-							ТИП ВОЛОС
-							<a href="#" class="b-advice__list__toggle">Скрыть</a>
-							<i class="fa fa-caret-down"></i>
-						</span>
-						<li class="b-advice__list__iteam">
-							<a href="" class="b-advice__list__iteam__links">Все типы волос</a>
-						</li>
-						<li class="b-advice__list__iteam">
-							<a href="" class="b-advice__list__iteam__links">Жирные</a>
-						</li>
-						<li class="b-advice__list__iteam">
-							<a href="" class="b-advice__list__iteam__links">Сухие</a>
-						</li>
-						<li class="b-advice__list__iteam">
-							<a href="" class="b-advice__list__iteam__links">Нормальные</a>
-						</li>
-						<li class="b-advice__list__iteam">
-							<a href="" class="b-advice__list__iteam__links">Окрашенные</a>
-						</li>
-						<li class="b-advice__list__iteam">
-							<a href="" class="b-advice__list__iteam__links">Жесткие</a>
-						</li>
-					</ul>
+<!--end Новости -->
+
+<!--begin Советы -->
+			<div class="row">
+				<div class="col-md-12">
+					<div class="b-advice">
+						<div class="col-md-4 col-sm-4 col-xs-12">
+							<ul class="b-advice__list">
+								<span class="b-advice__list__title">
+									РЕШИТЬ ПРОБЛЕМУ
+								</span>
+								<li class="b-advice__list__iteam">
+									<a href="" class="b-advice__list__iteam__links">Старение кожи</a>
+								</li>
+								<li class="b-advice__list__iteam">
+									<a href="" class="b-advice__list__iteam__links">Солнце</a>
+								</li>
+								<li class="b-advice__list__iteam">
+									<a href="" class="b-advice__list__iteam__links">Расширенные поры</a>
+								</li>
+								<li class="b-advice__list__iteam">
+									<a href="" class="b-advice__list__iteam__links">Анке</a>
+								</li>
+								<li class="b-advice__list__iteam">
+									<a href="" class="b-advice__list__iteam__links">Целлюлит</a>
+								</li>
+								<li class="b-advice__list__iteam">
+									<a href="" class="b-advice__list__iteam__links">Шрамы</a>
+								</li>
+								<li class="b-advice__list__iteam b-advice__list__iteam_hidden">
+									<a href="" class="b-advice__list__iteam__links">lorem</a>
+								</li>
+								<li class="b-advice__list__iteam b-advice__list__iteam_hidden">
+									<a href="" class="b-advice__list__iteam__links">lorem</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-4 col-sm-4 col-xs-12">
+							<ul class="b-advice__list">
+								<span class="b-advice__list__title">
+									ТИП КОЖИ
+								</span>
+								<li class="b-advice__list__iteam">
+									<a href="" class="b-advice__list__iteam__links">Все типы кожи</a>
+								</li>
+								<li class="b-advice__list__iteam">
+									<a href="" class="b-advice__list__iteam__links">Комбинированная</a>
+								</li>
+								<li class="b-advice__list__iteam">
+									<a href="" class="b-advice__list__iteam__links">Чувствительная</a>
+								</li>
+								<li class="b-advice__list__iteam">
+									<a href="" class="b-advice__list__iteam__links">Жирная</a>
+								</li>
+								<li class="b-advice__list__iteam">
+									<a href="" class="b-advice__list__iteam__links">Нормальная</a>
+								</li>
+								<li class="b-advice__list__iteam">
+									<a href="" class="b-advice__list__iteam__links">Сухая</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-4 col-sm-4 col-xs-12">
+							<ul class="b-advice__list">
+								<span class="b-advice__list__title">
+									ТИП ВОЛОС
+								</span>
+								<li class="b-advice__list__iteam">
+									<a href="" class="b-advice__list__iteam__links">Все типы волос</a>
+								</li>
+								<li class="b-advice__list__iteam">
+									<a href="" class="b-advice__list__iteam__links">Жирные</a>
+								</li>
+								<li class="b-advice__list__iteam">
+									<a href="" class="b-advice__list__iteam__links">Сухие</a>
+								</li>
+								<li class="b-advice__list__iteam">
+									<a href="" class="b-advice__list__iteam__links">Нормальные</a>
+								</li>
+								<li class="b-advice__list__iteam">
+									<a href="" class="b-advice__list__iteam__links">Окрашенные</a>
+								</li>
+								<li class="b-advice__list__iteam">
+									<a href="" class="b-advice__list__iteam__links">Жесткие</a>
+								</li>
+							</ul>
+							<a href="#" class="b-advice__list__toggle hidden-xs">
+									<i class="fa fa-caret-down"></i>Открыть
+							</a>
+						</div>
+					</div>
 				</div>
 			</div>
+<!--end Советы -->
 		</section>
 		<footer class="row b-footer">
 			<div class="col-md-12">
@@ -485,90 +668,78 @@
 					<div class="b-footer-menu">
 						<ul class="b-footer-menu__list">
 							<li class="b-footer-menu__list__iteam">
-								<a href="#" class="b-footer-menu__list__iteam_links">БРЕНДЫ</a>
+								<span class="b-footer-menu__list__iteam_links">БРЕНДЫ</span>
 							</li>
 							<li class="b-footer-menu__list__iteam">
-								<a href="#" class="b-footer-menu__list__iteam_links">ВОЛОСЫ</a>
+								<span class="b-footer-menu__list__iteam_links">ВОЛОСЫ</span>
 							</li>
 							<li class="b-footer-menu__list__iteam">
-								<a href="#" class="b-footer-menu__list__iteam_links">ЛИЦО</a>
+								<span class="b-footer-menu__list__iteam_links">ЛИЦО</span>
 							</li>
 							<li class="b-footer-menu__list__iteam">
-								<a href="#" class="b-footer-menu__list__iteam_links">ТЕЛО</a>
+								<span class="b-footer-menu__list__iteam_links">ТЕЛО</span>
 							</li>
 							<li class="b-footer-menu__list__iteam">
-								<a href="#" class="b-footer-menu__list__iteam_links">РУКИ</a>
+								<span class="b-footer-menu__list__iteam_links">РУКИ</span>
 							</li>
 							<li class="b-footer-menu__list__iteam">
-								<a href="#" class="b-footer-menu__list__iteam_links">НОГИ</a>
+								<span class="b-footer-menu__list__iteam_links">НОГИ</span>
 							</li>
 							<li class="b-footer-menu__list__iteam">
-								<a href="#" class="b-footer-menu__list__iteam_links">МАКИЯЖ</a>
+								<span class="b-footer-menu__list__iteam_links">МАКИЯЖ</span>
 							</li>
 							<li class="b-footer-menu__list__iteam">
-								<a href="#" class="b-footer-menu__list__iteam_links">ДЛЯ МУЖЧИН</a>
+								<span class="b-footer-menu__list__iteam_links">ДЛЯ МУЖЧИН</span>
 							</li>
 							<li class="b-footer-menu__list__iteam">
-								<a href="#" class="b-footer-menu__list__iteam_links">BEAUTY СОВЕТЫ</a>
+								<a href="" class="b-footer-menu__list__links">BEAUTY СОВЕТЫ</a>
 							</li>
 						</ul>
-						<div class="hidden_footer__blocks">
-							<ul class="hidden_footer__blocks__list">
-								<span class="hidden_footer__blocks__list_title">A</span>
-								<li  class="hidden_footer__blocks__list__iteam">
-									<a href="" class="hidden_footer-menu__list__iteam_links">Alterna</a>
-								</li>
-								<li class="hidden_footer__blocks__list__iteam">
-									<a href="" class="hidden_footer-menu__list__iteam_links">American Crew</a>
-								</li>
-								<li class="hidden_footer__blocks__list__iteam">
-									<a href="" class="hidden_footer-menu__list__iteam_links">Andrae Graland</a>
-								</li>
-								<li class="hidden_footer__blocks__list__iteam">
-									<a href="" class="hidden_footer-menu__list__iteam_links">Alessandro</a>
-								</li>
-							</ul>
-							<ul class="hidden_footer__blocks__list">
-								<span class="hidden_footer__blocks__list_title">B</span>
-								<li class="hidden_footer__blocks__list__iteam">
-									<a href="#" class="hidden_footer-menu__list__iteam_links">By-cosmetics</a>
-								</li>
-							</ul>
-							<ul class="hidden_footer__blocks__list">
-								<span class="hidden_footer__blocks__list_title">C</span>
-								<li class="hidden_footer__blocks__list__iteam">
-									<a href="" class="hidden_footer-menu__list__iteam_links">Chi</a>
-								</li>
-								<li class="hidden_footer__blocks__list__iteam">
-									<a href="" class="hidden_footer-menu__list__iteam_links">Christina Fitzqerald</a>
-								</li>
-								<li class="hidden_footer__blocks__list__iteam">
-									<a href="" class="hidden_footer-menu__list__iteam_links">Cloud Nire</a>
-								</li>
-								<li class="hidden_footer__blocks__list__iteam">
-									<a href="" class="hidden_footer-menu__list__iteam_links">Cnd</a>
-								</li>
-							</ul>
-							<ul class="hidden_footer__blocks__list">
-								<span class="hidden_footer__blocks__list_title">D</span>
-								<li class="hidden_footer__blocks__list__iteam">
-									<a href="" class="hidden_footer-menu__list__iteam_links">Davines</a>
-								</li>
-							</ul>
-							<ul class="hidden_footer__blocks__list">
-								<span class="hidden_footer__blocks__list_title">E</span>
-								<li class="hidden_footer__blocks__list__iteam">
-									<a href="" class="hidden_footer-menu__list__iteam_links"></a>
-								</li>
-							</ul>
-							<ul class="hidden_footer__blocks__list">
-								<i></i>
-								<li class="hidden_footer__blocks__list__iteam">
-									<a href="" class="hidden_footer-menu__list__iteam_links"></a>
-								</li>
-							</ul>
-							<a href="#" class="b-advice__list__toggle">Скрыть</a>
-							<i class="fa fa-caret-down"></i>
+						<div class="row hidden_footer__blocks">
+							<div class="col-md-4 col-sm-4">
+								<ul class="hidden_footer__blocks__list">
+									<li  class="hidden_footer__blocks__list__iteam">
+										<a href="" class="hidden_footer-menu__list__iteam_links">Alterna</a>
+									</li>
+									<li class="hidden_footer__blocks__list__iteam">
+										<a href="" class="hidden_footer-menu__list__iteam_links">American Crew</a>
+									</li>
+									<li class="hidden_footer__blocks__list__iteam">
+										<a href="" class="hidden_footer-menu__list__iteam_links">Andrae Graland</a>
+									</li>
+									<li class="hidden_footer__blocks__list__iteam">
+										<a href="" class="hidden_footer-menu__list__iteam_links">Alessandro</a>
+									</li>
+								</ul>
+								<ul class="hidden_footer__blocks__list">
+									<li class="hidden_footer__blocks__list__iteam">
+										<a href="" class="hidden_footer-menu__list__iteam_links">Davines</a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<ul class="hidden_footer__blocks__list">
+									<li class="hidden_footer__blocks__list__iteam">
+										<a href="#" class="hidden_footer-menu__list__iteam_links">By-cosmetics</a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<ul class="hidden_footer__blocks__list">
+									<li class="hidden_footer__blocks__list__iteam">
+										<a href="" class="hidden_footer-menu__list__iteam_links">Chi</a>
+									</li>
+									<li class="hidden_footer__blocks__list__iteam">
+										<a href="" class="hidden_footer-menu__list__iteam_links">Christina Fitzqerald</a>
+									</li>
+									<li class="hidden_footer__blocks__list__iteam">
+										<a href="" class="hidden_footer-menu__list__iteam_links">Cloud Nire</a>
+									</li>
+									<li class="hidden_footer__blocks__list__iteam">
+										<a href="" class="hidden_footer-menu__list__iteam_links">Cnd</a>
+									</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 					<div class="b-footer-payment">
@@ -578,48 +749,60 @@
 						<i class="b-footer-payment__icons b-footer-payment__icons_paypal"></i>
 						<i class="b-footer-payment__icons b-footer-payment__icons_qiwi"></i>
 					</div>
-					<div class="b-footer-copyright">
-						<div class="b-copyright">
-							<ul class="b-copyright__list">
-								<span class="b-copyright__list_title">
-									&copy;	2015 Glamio.ru Все права защищенны
-								</span>
-								<li class="b-copyright__list_iteam">8 (495) 123 45 67</li>
-								<li class="b-copyright__list_iteam">8 (800) 000 00 67</li>
-								<li class="b-copyright__list_iteam">glamio@mail.ru</li>
-							</ul>
+					<div class="row b-footer-copyright">
+						<div class="col-md-4 col-xs-12">
+							<div class="b-copyright">
+								<ul class="b-copyright__list">
+									<span class="b-copyright__list_title">
+										&copy;	2015 Glamio.ru Все права защищенны
+									</span>
+									<li class="b-copyright__list_iteam">8 (495) 123 45 67</li>
+									<li class="b-copyright__list_iteam">8 (800) 000 00 67</li>
+									<li class="b-copyright__list_iteam">glamio@mail.ru</li>
+								</ul>
+							</div>
 						</div>
-						<div class="b-links">
-							<ul class="b-links__list">
-								<span class="b-links_title">О компании</span>
-								<li class="b-links__list__iteam">
-									<a href="" class="b-links__list__iteam_links">Отзывы</a>
-								</li>
-								<li class="b-links__list__iteam">
-									<a href="" class="b-links__list__iteam_links">Новости</a>
-								</li>
-								<li class="b-links__list__iteam">
-									<a href="" class="b-links__list__iteam_links">Контакты</a>
-								</li>
-							</ul>
-							<ul class="b-links__list">
-								<span class="b-links_title">Полезная информация</span>
-								<li class="b-links__list__iteam">
-									<a href="" class="b-links__list__iteam_links">Доставка и оплата</a>
-								</li>
-								<li class="b-links__list__iteam">
-									<a href="" class="b-links__list__iteam_links">Договор оферты</a>
-								</li>
-							</ul>
-							<ul class="b-links__list">
-								<span class="b-links_title">Личный кабинет</span>
-								<li class="b-links__list__iteam">
-									<a href="" class="b-links__list__iteam_links">Регистрация</a>
-								</li>
-								<li class="b-links__list__iteam">
-									<a href="" class="b-links__list__iteam_links">Войти</a>
-								</li>
-							</ul>
+						<div class="col-md-2 col-xs-4">
+							<div class="b-links">
+								<ul class="b-links__list">
+									<span class="b-links_title">О компании</span>
+									<li class="b-links__list__iteam">
+										<a href="" class="b-links__list__iteam_links">Отзывы</a>
+									</li>
+									<li class="b-links__list__iteam">
+										<a href="" class="b-links__list__iteam_links">Новости</a>
+									</li>
+									<li class="b-links__list__iteam">
+										<a href="" class="b-links__list__iteam_links">Контакты</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-3 col-xs-4">
+							<div class="b-links">
+								<ul class="b-links__list">
+									<span class="b-links_title">Полезная информация</span>
+									<li class="b-links__list__iteam">
+										<a href="" class="b-links__list__iteam_links">Доставка и оплата</a>
+									</li>
+									<li class="b-links__list__iteam">
+										<a href="" class="b-links__list__iteam_links">Договор оферты</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="col-md-3 col-xs-4">
+							<div class="b-links">
+								<ul class="b-links__list">
+									<span class="b-links_title">Личный кабинет</span>
+									<li class="b-links__list__iteam">
+										<a href="" class="b-links__list__iteam_links">Регистрация</a>
+									</li>
+									<li class="b-links__list__iteam">
+										<a href="" class="b-links__list__iteam_links">Войти</a>
+									</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 					<div class="b-footer-icons">
@@ -653,17 +836,18 @@
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
 	<script>
 		window.jQuery || document.write(
-			'<script src="libs/jquery/jquery-1.11.1.js"><\/script>
-	'
+			'<script src="libs/jquery/jquery-1.11.1.js"><\/script>'
 		)
-</script>
+	</script>
+
 <!--
-		<script src="perfetto/code/perfetto.js"></script>
+	<script src="perfetto/code/perfetto.js"></script>
 -->
 <script type="text/javascript" src="libs/raphael/raphael-min.js"></script>
 <script type="text/javascript" src="libs/svg/svg.min.js"></script>
 <script src="libs/paralax/parallax.min.js"></script>
 <script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="libs/Flux Slider/flux.min.js"></script>
 <script src="libs/mixitup/mixitup.min.js"></script>
 <script src="libs/owl-carousel/owl.carousel.min.js"></script>
 <script src="libs/animate/animate-css.js"></script>
