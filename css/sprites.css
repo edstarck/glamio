@@ -11,43 +11,43 @@ Icon classes can be used entirely standalone. They are named after their origina
 */
 .icon-logo-footer {
   background-image: url(../img/icons/spritesheet.png);
-  background-position: -289px 0px;
+  background-position: -536px -59px;
   width: 35px;
   height: 35px;
 }
 .icon-mastercard {
   background-image: url(../img/icons/spritesheet.png);
-  background-position: -71px -255px;
+  background-position: -536px -30px;
   width: 48px;
   height: 29px;
 }
 .icon-paypal {
   background-image: url(../img/icons/spritesheet.png);
-  background-position: -87px -222px;
+  background-position: -87px -477px;
   width: 96px;
   height: 28px;
 }
 .icon-qiwi {
   background-image: url(../img/icons/spritesheet.png);
-  background-position: 0px -222px;
+  background-position: 0px -477px;
   width: 87px;
   height: 33px;
 }
 .icon-spritesheet {
   background-image: url(../img/icons/spritesheet.png);
   background-position: 0px 0px;
-  width: 289px;
-  height: 222px;
+  width: 536px;
+  height: 477px;
 }
 .icon-visa {
   background-image: url(../img/icons/spritesheet.png);
-  background-position: -183px -222px;
+  background-position: -536px -94px;
   width: 61px;
   height: 20px;
 }
 .icon-yandex {
   background-image: url(../img/icons/spritesheet.png);
-  background-position: 0px -255px;
+  background-position: -536px 0px;
   width: 71px;
   height: 30px;
 }
