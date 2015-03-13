@@ -9,45 +9,81 @@ Icon classes can be used entirely standalone. They are named after their origina
 <img class="icon-home" />
 ```
 */
+.icon-icon-cross {
+  background-image: url(../img/icons/spritesheet.png);
+  background-position: -1207px -92px;
+  width: 15px;
+  height: 14px;
+}
+.icon-icon-cross_opacity {
+  background-image: url(../img/icons/spritesheet.png);
+  background-position: -1243px -33px;
+  width: 15px;
+  height: 14px;
+}
+.icon-icon-star-opasity {
+  background-image: url(../img/icons/spritesheet.png);
+  background-position: -1243px -63px;
+  width: 15px;
+  height: 14px;
+}
+.icon-icon-star {
+  background-image: url(../img/icons/spritesheet.png);
+  background-position: -1243px -47px;
+  width: 15px;
+  height: 14px;
+}
 .icon-logo-footer {
   background-image: url(../img/icons/spritesheet.png);
-  background-position: -536px -59px;
+  background-position: -1172px -92px;
   width: 35px;
   height: 35px;
 }
 .icon-mastercard {
   background-image: url(../img/icons/spritesheet.png);
-  background-position: -536px -30px;
+  background-position: -1172px -63px;
   width: 48px;
   height: 29px;
 }
 .icon-paypal {
   background-image: url(../img/icons/spritesheet.png);
-  background-position: -87px -477px;
+  background-position: 0px -1148px;
   width: 96px;
   height: 28px;
 }
 .icon-qiwi {
   background-image: url(../img/icons/spritesheet.png);
-  background-position: 0px -477px;
+  background-position: -1172px 0px;
   width: 87px;
   height: 33px;
 }
 .icon-spritesheet {
   background-image: url(../img/icons/spritesheet.png);
   background-position: 0px 0px;
-  width: 536px;
-  height: 477px;
+  width: 1172px;
+  height: 1129px;
+}
+.icon-treangle {
+  background-image: url(../img/icons/spritesheet.png);
+  background-position: 0px -1129px;
+  width: 229px;
+  height: 19px;
 }
 .icon-visa {
   background-image: url(../img/icons/spritesheet.png);
-  background-position: -536px -94px;
+  background-position: -1172px -127px;
   width: 61px;
   height: 20px;
 }
+.icon-white-cart {
+  background-image: url(../img/icons/spritesheet.png);
+  background-position: -1220px -63px;
+  width: 23px;
+  height: 22px;
+}
 .icon-yandex {
   background-image: url(../img/icons/spritesheet.png);
-  background-position: -536px 0px;
+  background-position: -1172px -33px;
   width: 71px;
   height: 30px;
 }

@@ -28,9 +28,18 @@ module.exports = function(grunt) {
 				options: {
 					nospawn: true
 				}
+			},
+			sprite:{
+				files: [
+					'img/icons/*.png'
+				],
+				tasks: ['sprite'],
+				options: {
+					nospawn: true
+				}
 			}
 		}
 	});
 	// Задача по умолчанию
-	grunt.registerTask('default', ['sass:dev', 'sprite', 'watch:css']);
+	grunt.registerTask('default', ['sass:dev', 'sprite', 'watch']);
 };
